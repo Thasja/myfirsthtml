@@ -1,0 +1,50 @@
+.ad-box{
+    height:282px;
+    border:1px solid lightgrey;
+    margin-top:30px;
+    margin-left:145px;
+    margin-right:145px;
+    margin-bottom:15px;
+    align-items:center;
+    text-align:center;
+}
+
+.first-sep-line hr{
+    color:lightgray;
+    margin:0px;
+}
+
+#navbar ul{
+    padding:0;
+    list-style:none;
+}
+
+#navbar li{
+    display:inline;
+}
+
+#navbar a{
+    color: #2a2a2a;
+    font-size:16px;
+    font-family:Franklin,arial,helvetica,sans-serif;
+    text-decoration:none;
+    padding-right:20px;
+}
+
+.container{
+    margin-left:90px;
+}
+
+hr{
+    margin-left:90px;
+    margin-right:90px;
+}
+
+.innovations-link{
+    margin-left:90px;
+    padding-top:40px;
+}
+
+.innovations-link a{
+    text-decoration:none;
+}
