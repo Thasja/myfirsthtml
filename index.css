@@ -36,15 +36,58 @@
 }
 
 hr{
-    margin-left:90px;
     margin-right:90px;
+    margin-bottom:20px;
 }
 
 .innovations-link{
-    margin-left:90px;
-    padding-top:40px;
+    padding-top:20px;
+    margin-bottom:0;
 }
 
 .innovations-link a{
     text-decoration:none;
+    color: rgb(0, 0,0);
+    font-family: Franklin, arial, sans-serif;
+    font-size:16px;
+    font-weight:700;
+    line-height:20px;
+}
+
+h1{
+    font-family:Postoni, BodoniSvtyTwoITCTT-Book, serif;
+    line-height:1.1;
+    Color:rgb(42, 42, 42);
+    display:block;
+    font-size:55px;
+    font-weight:700;
+    padding-bottom:0px;
+    margin-top:5px;
+    margin-bottom:20px;
+}
+
+h2{
+    color:rgb(102, 102, 102);
+    display:block;
+    font-family:Franklin, arial, sans-serif;
+    font-size:20px;
+    font-weight:300;
+    line-height:25px;
+    margin-bottom:16px;
+    margin-top:0px;
+}
+
+image{
+    padding-top:30px;
+}
+
+figcaption{
+    color:rgb(102, 102, 102);
+    display:block;
+    font-family:Franklin, arial, sans-serif;
+    font-size:14px;
+    line-height:17.5px;
+    margin-bottom:16px;
+    margin-top:8px;
+    text-align:left;
 }
