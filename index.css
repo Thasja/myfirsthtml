@@ -15,7 +15,7 @@
     width:968px;
 }
 
-.first-sep-line hr{
+.first-sep-line{
     color:lightgray;
     margin:0px;
 }
@@ -44,6 +44,7 @@
 hr{
     margin-right:90px;
     margin-bottom:20px;
+    color:lightgrey;
 }
 
 .innovations-link{
@@ -70,6 +71,7 @@ h1{
     padding-bottom:0px;
     margin-top:5px;
     margin-bottom:20px;
+    margin-right:110px;
 }
 
 h2{
@@ -81,6 +83,7 @@ h2{
     line-height:25px;
     margin-bottom:16px;
     margin-top:0px;
+    margin-right:150px;
 }
 
 image{
@@ -133,3 +136,132 @@ figcaption{
     text-decoration-color:lightgray;
     text-decoration-thickness:1%;
 }
+
+.clr{
+    clear:both;
+}
+
+#main-block{
+    float:left;
+    width:60%;
+}
+
+#sidebar{
+    float:right;
+    width:40%;
+}
+
+.img-sidebar{
+    height:968px;
+    width:250px;
+    border:1px solid lightgrey;
+    margin-left:90px;
+    align-content:center;
+    margin-bottom:30px;
+}
+
+.img-sidebar img{
+    height:500px;
+    width:230px;
+    padding-top:234px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.most-read a{
+    font-weight:800;
+    color:rgb(17, 17, 17);
+    font-family:Franklin, arial, sans-serif;
+    font-size:16px;
+    letter-spacing:0.01px;
+    text-decoration-line:none;
+}
+
+.hr-sidebar{
+    margin-left:50px;
+    color:black;
+}
+
+.most-read{
+    margin-left:50px;
+}
+
+.img2-sidebar{
+    margin-left:50px;
+    margin-top:20px;
+}
+
+.img2-sidebar img{
+    height:216px;
+    width:325px;
+}
+
+.ad2-box{
+    background-color:rgb(247, 247, 247);
+    height:250px;
+    width:700px;
+}
+
+.ad2-box img{
+    margin-top:25px;
+    margin-bottom:25px;
+    margin-left:20px;
+    margin-right:20px;
+    border:1px solid lightgrey;
+    height:200px;
+    width:660px;
+}
+
+.writer-description{
+    float:right;
+    width:88%;
+}
+
+.comments-button{
+    width:680px;
+    height:40px;
+    border:1px solid rgb(213, 213, 213);
+    margin-bottom:30px;
+    text-align:center;
+    border-radius:2px;
+    Box-sizing:border-box;
+    font-weight:700;
+    color:rgb(42, 42 ,42);
+    font-family:Franklin, Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-stretch:100%
+}
+
+.writer-image{
+    margin-bottom:40px;
+    margin-right:40px;
+}
+
+.writer-image img{
+    border-radius:50%
+}
+
+.writer-description a{
+    color:rgb(25, 85, 165);
+    font-family:Franklin, arial, sans-serif;
+    line-height:20px;
+    text-decoration-line:none;
+    font-weight:800;
+    font-size:16px;
+    margin-bottom:0;
+    padding-bottom:0;
+}
+
+.writer-description p{
+    margin-top:1px;
+    color:rgb(102, 102, 102);
+    font-family:Franklin, arial, sans-serif;
+    font-size:16px;
+    line-height:20px;
+}
+
+.writer-description p a{
+    color:rgb(42, 42, 42);
+    font-weight:400;
+}
+
