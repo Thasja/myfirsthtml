@@ -1,3 +1,24 @@
+.header{
+    height:60px;
+    background-color:black;
+}
+
+.header img{
+    height:26px;
+    width:188px;
+    margin-left:525px;
+    margin-top:10px;
+}
+
+.header p{
+    color:rgb(213, 213, 213);
+    text-align:center;
+    margin-top:0;
+    font-family:georgia, "Times New Roman", serif;
+    font-size:12px;
+    font-style:italic;
+}
+
 .ad-box{
     height:248px;
     width:968px;
@@ -265,3 +286,20 @@ figcaption{
     font-weight:400;
 }
 
+.footer{
+    box-sizing:border-box;
+    border-top:1px solid lightgray;
+    height:90px;
+}
+
+.footer a{
+    color:rgb(42, 42 ,42);
+    display:block;
+    font-family:Franklin, arial, sans-serif;
+    font-size:12px;
+    line-height:21px;
+    text-align:center;
+    max-width:100%;
+    margin-top:20px;
+    text-decoration-line:none;
+}
