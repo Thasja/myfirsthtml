@@ -20,12 +20,9 @@
 }
 
 .ad-box{
-    height:248px;
-    width:968px;
-    border:1px solid lightgrey;
+    border-bottom:1px solid lightgrey;
     margin-top:30px;
-    margin-left:145px;
-    margin-right:145px;
+    margin-right:0px;
     margin-bottom:15px;
     align-items:center;
     text-align:center;
@@ -34,11 +31,9 @@
 .ad-box img{
     height:248px;
     width:968px;
-}
-
-.first-sep-line{
-    color:lightgray;
-    margin:0px;
+    margin-left:145px;
+    margin-right:145px;
+    margin-bottom:20px;
 }
 
 #navbar ul{
@@ -62,14 +57,10 @@
     margin-left:90px;
 }
 
-hr{
-    margin-right:90px;
-    margin-bottom:20px;
-    color:lightgrey;
-}
-
 .innovations-link{
-    padding-top:20px;
+    border-top:1px solid lightgrey;
+    margin-right:90px;
+    padding-top:35px;
     margin-bottom:0;
 }
 
@@ -96,15 +87,17 @@ h1{
 }
 
 h2{
+    border-bottom:1px solid lightgrey;
     color:rgb(102, 102, 102);
     display:block;
     font-family:Franklin, arial, sans-serif;
     font-size:20px;
     font-weight:300;
     line-height:25px;
-    margin-bottom:16px;
+    margin-bottom:25px;
     margin-top:0px;
-    margin-right:150px;
+    margin-right:100px;
+    padding-bottom:20px;
 }
 
 image{
@@ -258,7 +251,18 @@ figcaption{
     margin-right:40px;
 }
 
+.writer-image2{
+    margin-bottom:20px;
+    margin-right:40px;
+    border-bottom:1px solid lightgray;
+    padding-bottom:20px;
+}
+
 .writer-image img{
+    border-radius:50%
+}
+
+.writer-image2 img{
     border-radius:50%
 }
 
